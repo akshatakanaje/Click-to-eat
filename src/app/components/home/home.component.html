@@ -1,13 +1,18 @@
+<!-- header starts -->
 <header>
     <a href="#" class="logo"><i class="fa fa-utensils"></i>Kitchen Story..</a>
     <nav class="navbar">
         <a class="active" routerLink="#">Home</a>
-        <a   routerLink="food-items">Food Items</a>
-        <a  routerLink="aboutus" >About Us</a>
+        <a   routerLink="/food-items">Food Items</a>
+        <a  routerLink="/aboutus" >About Us</a>
 
         <a class="feed" id="feedback" routerLink="feedback">feedback</a>
-        <a routerLink="orders">Orders</a>
+        <a routerLink="/orders">Orders</a>
+        
+        
     </nav>
+    <h3><a class="nav-link" aria-current="page" routerLink="/auth/login"  routerLinkActive>Sign in</a></h3>
+    <h3><a class="nav-link" aria-current="page" routerLink="/auth/login"  routerLinkActive>Sign out</a></h3>
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search-icon"></i>
@@ -25,7 +30,7 @@
         <div class="edit">Edit</div>
         <i class="fas fa-times" id="close"></i>
 
-    </div>
+    </div> 
     <div class="star-widget">
     <input type="radio" name="rate" id="rate-5">
     <label for="rate-5" class="fas fa-star"></label>

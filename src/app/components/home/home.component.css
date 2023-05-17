@@ -24,11 +24,16 @@ header .navbar a{
     color:var(--light-color);
     text-decoration: none;
 }
+header h3 a{
+    text-decoration: none;
+    text-align: right;
+}
 header .navbar a.active
 {
     color: #fff;
     background: orangered;
     text-decoration: none;
+    
 }
 .nav a:hover{
     background: orangered;
@@ -157,7 +162,7 @@ section .top-re h2{
     margin-left: 105px;
     font-size:40px;
 }
-section .table1{
+/* section .table1{
     display:flex;
     border-radius:.5rem;
     padding-left: 100px;
@@ -210,4 +215,4 @@ section .table1::-webkit-scrollbar-thumb{
 }
 section .table1::-webkit-scrollbar-thumb:hover{
     background:orangered;
-}
+} */

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { LogOutComponent } from './components/auth/log-out/log-out.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { SignInComponent } from './components/auth/sign-in/sign-in.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
@@ -19,7 +20,7 @@ const routes: Routes = [
   {path:'feedback', component:FeedbackComponent},
   {path: 'auth', children : [
     {path: 'login', component: LoginComponent},
-    {path: 'sign-in', component: SignInComponent},
+    {path: 'log-out', component: LogOutComponent},
   ]},
   {path: 'food-items', component: FoodItemsComponent},
   {path:'**', component: NotFoundComponent}

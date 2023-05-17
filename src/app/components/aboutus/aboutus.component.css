@@ -1,0 +1,51 @@
+.section {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    position: relative;
+    margin: 12px;
+}
+
+.sec-sub-title {
+    text-transform: uppercase;
+    display: inline-block;
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #e4e4e4, -9px -9px 12px #ffffff;
+    padding: 3px 20px;
+    border-radius: 60px;
+    color: #ff8243;
+    font-size: 20px;
+}
+
+.h2-title {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    position: relative;
+    
+}
+
+
+
+.about-video-img {
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 50vh;
+    min-height: 400px;
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgb(36 39 37 / 30%);
+    display: flex;
+    align-items:center;
+    justify-content:right;
+}
+
+.sec-title p{
+    text-align: right;
+    text-decoration: double;
+}
+
